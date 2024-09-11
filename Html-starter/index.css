@@ -1,0 +1,15 @@
+
+.container {
+    display: flex;
+}
+.column {
+    flex: 1; /* Equal width columns */
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+.left {
+    background-color: #dfdfdf;
+}
+.right {
+    background-color: #ececec;
+}
