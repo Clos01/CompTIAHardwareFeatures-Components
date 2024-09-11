@@ -1,4 +1,5 @@
 
+/* column section first section  */
 .container {
     display: flex;
 }
@@ -12,4 +13,19 @@
 }
 .right {
     background-color: #ececec;
+}
+
+/* 2nd section of website full width */
+.container-full {
+    display: flex;
+    background-color: #cecece;
+    justify-content: start;
+
+}
+.Motherboard-Section {
+    width: 100%;
+    text-align: center;
+}
+.Motherboard-Heading {
+    font-size: 2rem;
 }
